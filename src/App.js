@@ -35,6 +35,7 @@ const Navbar = () => (
 
 const Home = () => (
   <div>
+    <Navbar />
     <h1>Home Page</h1>
     <p>Test home page content</p>
     <p>
@@ -45,6 +46,7 @@ const Home = () => (
 
 const About = () => (
   <div>
+    <Navbar />
     <h1>About Page</h1>
     <p>
     Sammy Baugh (Samuel Adrian Baugh) was an American football quarterback, coach, and Hall of Famer, widely regarded as one of the greatest quarterbacks in NFL history. Born on March 17, 1914, in Temple, Texas, Baugh first gained national recognition as a star at Texas Christian University (TCU), where he revolutionized the passing game with his pinpoint accuracy. His standout performances led to him being drafted by the Washington Redskins in 1937, where he would play his entire 16-season career (1937–1952).
@@ -59,6 +61,7 @@ const About = () => (
 
 const Contact = () => (
   <div>
+    <Navbar />
     <h1>Contact Page</h1>
     <p>
     Otto Graham was an American football quarterback who dominated the sport in the 1940s and 1950s, leading the Cleveland Browns to unprecedented success. Born on December 6, 1921, in Waukegan, Illinois, Graham was a multi-sport athlete at Northwestern University, excelling in football, basketball, and even earning All-American honors in the latter. After serving in the U.S. Navy during World War II, he joined the newly formed Cleveland Browns in 1946 under legendary coach Paul Brown.
@@ -73,11 +76,10 @@ const Contact = () => (
 
 const App = () => (
   <Router>
-    <Navbar />
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/contact" element={<Contact />} />
+      <Route exact path="/" element={<Home />} />
+      <Route exact path="/about" element={<About />} />
+      <Route exact path="/contact" element={<Contact />} />
     </Routes>
   </Router>
 );
