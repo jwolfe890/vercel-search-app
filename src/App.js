@@ -53,6 +53,38 @@ const About = () => (
     Nicknamed "Slingin’ Sammy," Baugh was a pioneer in the development of the modern forward pass, leading the NFL in passing yards multiple times. In 1943, he had one of the most remarkable seasons in football history, leading the league in passing, punting, and interceptions as a defensive back. A two-time NFL champion (1937, 1942) and six-time First-Team All-Pro, Baugh set numerous passing records and remains one of the most influential figures in the sport.
     Beyond his playing days, Baugh transitioned into coaching, including stints at Hardin–Simmons University and in professional football. He was inducted into the Pro Football Hall of Fame in 1963 as part of its inaugural class. Sammy Baugh passed away on December 17, 2008, but his legacy endures as a transformative figure in football history.
     </p>
+    <div>
+      <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+        Google
+      </a>
+      <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
+        YouTube
+      </a>
+      <a href="https://en.wikipedia.org" target="_blank" rel="noopener noreferrer">
+        Wikipedia
+      </a>
+      <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+        GitHub
+      </a>
+      <a href="https://stackoverflow.com" target="_blank" rel="noopener noreferrer">
+        Stack Overflow
+      </a>
+      <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+        Facebook
+      </a>
+      <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+        Instagram
+      </a>
+      <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+        LinkedIn
+      </a>
+      <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+        Twitter
+      </a>
+      <a href="https://www.reddit.com" target="_blank" rel="noopener noreferrer">
+        Reddit
+      </a>
+    </div>
     <p>
       Go to <Link to="/">Home</Link> or <Link to="/contact">Contact</Link>
     </p>
