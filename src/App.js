@@ -36,6 +36,7 @@ const Navbar = () => (
 const Home = () => (
   <div>
     <h1>Home Page</h1>
+    <p>Test home page content</p>
     <p>
       Go to <Link to="/about">About</Link> or <Link to="/contact">Contact</Link>
     </p>
